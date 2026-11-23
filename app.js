@@ -245,7 +245,7 @@ function renderFeatured() {
         <div class="relative">
           ${imgUrl ? `
           <div class="relative h-full min-h-[400px] rounded-2xl overflow-hidden bg-slate-900/50">
-            <img src="${imgUrl}" alt="${n.name}" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='images/launch-placeholder.png';" />
+            <img src="${imgUrl}" alt="${n.name}" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='launch-placeholder.png';" />
             <div class="absolute inset-0 bg-linear-to-t from-slate-900 via-transparent to-transparent"></div>
           </div>
           ` : `
@@ -281,7 +281,7 @@ function renderLaunchesGrid() {
       <div class="bg-slate-800/50 border border-slate-700 rounded-2xl overflow-hidden hover:border-blue-500/30 transition-all group cursor-pointer">
         ${thumb ? `
         <div class="relative h-48 overflow-hidden bg-slate-900/50">
-          <img src="${thumb}" alt="${a.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.onerror=null; this.src='images/launch-placeholder.png';" />
+          <img src="${thumb}" alt="${a.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.onerror=null; this.src='launch-placeholder.png';" />
           <div class="absolute top-3 right-3">
             <span class="px-3 py-1 bg-${color}-500/90 text-white backdrop-blur-sm rounded-full text-xs font-semibold">
               ${status}
@@ -352,14 +352,14 @@ const planetColors = {
 };
 
 const planetImages = {
-  mercury: "images/mercury.png",
-  venus: "images/venus.png",
-  earth: "images/earth.png",
-  mars: "images/mars.png",
-  jupiter: "images/jupiter.png",
-  saturn: "images/saturn.png",
-  uranus: "images/uranus.png",
-  neptune: "images/neptune.png"
+  mercury: "mercury.png",
+  venus: "venus.png",
+  earth: "earth.png",
+  mars: "mars.png",
+  jupiter: "jupiter.png",
+  saturn: "saturn.png",
+  uranus: "uranus.png",
+  neptune: "neptune.png"
 };
 
 function renderPlanetsGrid() {
